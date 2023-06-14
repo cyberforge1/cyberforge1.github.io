@@ -1,0 +1,125 @@
+
+/* GENERAL SETTINGS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.heading-title {
+    color: black;
+}
+
+section {
+    border:	1px solid black;
+    background-color: lightgray;
+    width: 100%;
+	height: 350px;
+    border-radius: 0.5rem;
+	position: relative;
+    overflow: auto;
+}
+
+
+
+/* BODY SETTINGS */
+
+#div1 {
+    border: 1px solid black;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+    margin-left: 60%;
+	font-weight: bold;
+	font-size: 140%;
+	background-color: violet;
+}
+
+
+#div2 {
+    border: 1px solid black;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+    margin-left: 60%;
+	font-weight: bold;
+	font-size: 140%;
+	background-color: lightblue;
+}
+
+#div3 {
+    border: 1px solid black;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+    margin-left: 60%;
+	font-weight: bold;
+	font-size: 140%;
+	padding: 5px;
+	background-color: gold;
+}
+
+
+p {
+    padding: 2.5%;
+    margin: 0;
+}
+
+
+/* EMPTY BOX */
+
+#emptybox {
+    margin-top: 40px;
+    height: 2000px;
+    width: 100%;
+    background-color: aquamarine;
+    border: 2px black solid;
+}
+
+
+
+/* NAVBAR SETTINGS */
+
+
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: grey;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  padding-left: 25px;
+  color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.navbar-toggle{
+	margin-right: 25px;
+    border: 2px solid white;
+}
+
+.icon-bar{
+	background-color: white;
+}

@@ -1,0 +1,96 @@
+/* This is your Tailwind CSS file */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add your custom styles below */
+
+/* Set box-sizing for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Center the page content */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+}
+
+/* Add spacing and style to the header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+header div {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add spacing and style to the main sections */
+main {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the project list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Add spacing and style to the footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+
+/* Add more custom styles as needed */
+
+
+img {
+  border-radius: 50%;
+}
+
+.main title {
+  color:green;
+}
+
+.paragraphs {
+  float: left;
+  background-color: white;
+}
